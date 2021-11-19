@@ -19,7 +19,7 @@ public class Phone {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private long id;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
