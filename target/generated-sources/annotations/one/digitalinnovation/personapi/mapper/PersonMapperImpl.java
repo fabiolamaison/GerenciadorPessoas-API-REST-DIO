@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import javax.annotation.processing.Generated;
+import javax.annotation.Generated;
 import one.digitalinnovation.personapi.dto.request.PersonDTO;
 import one.digitalinnovation.personapi.dto.request.PersonDTO.PersonDTOBuilder;
 import one.digitalinnovation.personapi.dto.request.PhoneDTO;
@@ -18,7 +18,7 @@ import one.digitalinnovation.personapi.entity.Phone.PhoneBuilder;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2021-11-19T01:24:09-0300",
+    date = "2021-11-19T01:58:56-0300",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 11.0.12 (Oracle Corporation)"
 )
 public class PersonMapperImpl implements PersonMapper {
